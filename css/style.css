@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1f22;
+}
+
+/*------------------------------------CABEÇALHO----------------------------------*/
+header{
+    display: flex; /*para eu conseguir manipular */
+    justify-content: space-between; /*joga os itens para cada lado*/
+    align-items: center; /*alinha verticalmente no centro*/
+    width: 100%;
+    /*padding: 20px 40px;*/
+
+}
+
+.logo-imagem{
+    width: 300px;
+}
+
+.menu{
+    display: flex;
+    gap: 24px;
+}
+
+
+.navegacao{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 16px; 
+    padding: 5px;  
+}
+
+.navegacao:hover{
+    color: #ec9717
+}
+
+
+/*---------------------------------------CORPO DO SITE --------------------------------------------*/
+.corpo_site{
+    display: flex; /*para eu conseguir manipular */
+    justify-content: space-between; /*joga os itens para cada lado*/
+    align-items: center; /*alinha verticalmente no centro*/
+    width: 100%;
+    /*padding: 20px 40px;*/
+
+}
+
+.corpo_site h1{
+    color: aliceblue;
+}
+
+/*--------------------------------------CARDS --------------------------------------*/
+.cards{
+    display: flex; /*para eu conseguir manipular */
+    /*justify-content: space-between; /*joga os itens para cada lado*/
+    align-items: center; /*alinha verticalmente no centro*/
+    width: 100%;
+    /*padding: 20px 40px;*/
+
+}
+
+.card{
+    background-color: #ec9717;
+    height: 270px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+}
