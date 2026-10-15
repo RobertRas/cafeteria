@@ -6,6 +6,7 @@
 
 body{
     background-color: #1e1f22;
+    padding: 0% 30%;
 }
 
 /*------------------------------------CABEÇALHO----------------------------------*/
@@ -66,10 +67,11 @@ header{
 }
 
 .card{
-    background-color: #ec9717;
+    background-color: #1e1f22;
     height: 270px;
     width: 250px;
     border-radius: 10px;
     margin: 20px;
     padding: 5px;
+    border: 1px solid white;
 }
