@@ -70,8 +70,7 @@ header {
 
 }
 
-.corpo_site h1,
-h3 {
+ h1, h2, h3 {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,24 +85,66 @@ h3 {
 .cards {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 
 }
 
 .card {
     background-color: #1e1f22;
-    height: 220px;
+    height:auto;
     width: 220px;
     border-radius: 10px;
     margin-left: 20px;
     margin-top: 20px;
     padding: 5px;
     border: 1px solid white;
+    text-align: center;
 }
 
 .card:hover {
     border: 1px solid #b77410
+}
+
+/*----------------- cards do menu ---------------------------*/
+
+.cardapio{
+    text-align: center;
+}
+
+.produto{
+    height: 50%;
+    width: 100%;
+}
+
+/* ------------------- workspaces ----------------------------*/
+.card-espacos {
+    background-color: #222429;
+    height:auto;
+    width: 220px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    
+    text-align: center;
+}
+
+/* ----------------- cards de comentários --------------------- */
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info h3{
+    font-size: 12px;
+}
+
+.foto_usuario{
+    height: 30%;
+    width: 30%;
+    border-radius: 50px;
 }
 
 /*------------------responsividade---------------------*/
@@ -127,7 +168,7 @@ h3 {
 
     .card {
         background-color: #1e1f22;
-        height: 220px;
+        height: auto;
         width: 220px;
         border-radius: 10px;
         margin-left: 20px;
